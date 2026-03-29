@@ -3,102 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <title>Le Scent</title>
-
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #f8f8f8, #eaeaea);
       margin: 0;
-      text-align: center;
+      background: #f5f5f5;
     }
 
     header {
       background: black;
       color: white;
-      padding: 25px;
-      font-size: 30px;
+      text-align: center;
+      padding: 20px;
+      font-size: 28px;
       letter-spacing: 3px;
-      animation: fadeIn 1.5s ease;
     }
 
-    .container {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
       padding: 20px;
     }
 
-    .product {
+    .card {
       background: white;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 15px;
-      width: 80%;
-      max-width: 400px;
-      box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
-      animation: fadeUp 1s ease;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
-    .product:hover {
-      transform: scale(1.05);
-      box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      margin: 10px 0;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 10px;
-      padding: 10px 20px;
+      padding: 10px;
       background: black;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s, transform 0.2s;
+      border-radius: 5px;
     }
 
     .btn:hover {
       background: #333;
-      transform: translateY(-2px);
     }
-
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-
-    @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
   </style>
 </head>
-
 <body>
 
 <header>LE SCENT</header>
 
-<div class="container">
-  <h2>Perfumes originales ✨</h2>
+<div class="grid">
 
-  <div class="product">
+  <div class="card">
+    <img src="https://via.placeholder.com/200" alt="Perfume">
     <h3>Dior Sauvage</h3>
-    <p>$...</p>
-    <a class="btn" href="https://wa.me/549XXXXXXXXXX">Comprar</a>
+    <p class="price">$120.000</p>
+    <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20comprar%20Dior%20Sauvage">Comprar</a>
   </div>
 
-  <div class="product">
+  <div class="card">
+    <img src="https://via.placeholder.com/200" alt="Perfume">
     <h3>Carolina Herrera 212</h3>
-    <p>$...</p>
-    <a class="btn" href="https://wa.me/549XXXXXXXXXX">Comprar</a>
+    <p class="price">$95.000</p>
+    <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20comprar%20212">Comprar</a>
   </div>
 
-  <h3>Contacto</h3>
-  <p>Instagram: @tuusuario</p>
+  <div class="card">
+    <img src="https://via.placeholder.com/200" alt="Perfume">
+    <h3>Invictus</h3>
+    <p class="price">$110.000</p>
+    <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20comprar%20Invictus">Comprar</a>
+  </div>
+
 </div>
 
 </body>
+</html>
 </html>
