@@ -68,22 +68,22 @@
 
   <div class="card">
     <img src="https://via.placeholder.com/200" alt="Perfume">
-    <h3>Dior Sauvage</h3>
-    <p class="price">$120.000</p>
+    <h3>perfume1</h3>
+    <p class="price">$costo1</p>
     <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20comprar%20Dior%20Sauvage">Comprar</a>
   </div>
 
   <div class="card">
     <img src="https://via.placeholder.com/200" alt="Perfume">
-    <h3>Carolina Herrera 212</h3>
-    <p class="price">$95.000</p>
+    <h3>perfume2</h3>
+    <p class="price">$costo2</p>
     <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20comprar%20212">Comprar</a>
   </div>
 
   <div class="card">
     <img src="https://via.placeholder.com/200" alt="Perfume">
-    <h3>Invictus</h3>
-    <p class="price">$110.000</p>
+    <h3>perfume3</h3>
+    <p class="price">$costo3</p>
     <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20comprar%20Invictus">Comprar</a>
   </div>
 
